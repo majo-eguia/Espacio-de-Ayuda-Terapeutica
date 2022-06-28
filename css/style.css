@@ -110,6 +110,7 @@ header h1 {
     border: double 2px #161616;
     box-sizing: border-box;
     font-size: 2.5rem;
+    background-color: rgb(86, 86, 228, 0.6);
 }
 
 p {
