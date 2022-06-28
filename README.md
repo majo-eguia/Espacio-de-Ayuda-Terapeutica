@@ -6,13 +6,18 @@ Este es un sitio web destinado a brindar información sobre los distintos tipos 
 
 ## Links
 
-- [Wireframe web](https://wireframe.cc/AEyuMK) INDEX
-- [Wireframe mobile](https://wireframe.cc/8gD6cl) INDEX
-- [Wireframe web](https://wireframe.cc/BseuzT) ¿Quiénes Somos?
-- [Wireframe mobile](https://wireframe.cc/Q8Ha8f) ¿Quiénes Somos?
-- [Wireframe web](https://wireframe.cc/CUjudI) Tipos de Terapia
-- [Wireframe mobile](https://wireframe.cc/p4H50j) Tipos de Terapia
-- [Wireframe web](https://wireframe.cc/wgUSUX) Servicios
-- [Wireframe mobile](https://wireframe.cc/LKL6uS) Servicios
-- [Wireframe web](https://wireframe.cc/rTjI2G) Contáctanos
-- [Wireframe mobile](https://wireframe.cc/1QB4wS) Contáctanos
+### Wireframes web
+
+- [INDEX](https://wireframe.cc/AEyuMK)
+- [¿Quiénes Somos?](https://wireframe.cc/BseuzT)
+- [Tipos de Terapia](https://wireframe.cc/CUjudI)
+- [Servicios](https://wireframe.cc/wgUSUX)
+- [Contáctanos](https://wireframe.cc/rTjI2G)
+
+### Wireframes mobile
+
+- [INDEX](https://wireframe.cc/8gD6cl)
+- [¿Quiénes Somos?](https://wireframe.cc/Q8Ha8f)
+- [Tipos de Terapia](https://wireframe.cc/p4H50j)
+- [Servicios](https://wireframe.cc/LKL6uS)
+- [Contáctanos](https://wireframe.cc/1QB4wS)
