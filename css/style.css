@@ -82,6 +82,9 @@ header h1 {
     color: #000;
     font-size: 3.5rem;
     margin-top: 2rem;
+    transform: scaleX(1.25);
+    cursor: pointer;
+    transition: 3s;
 }
 
 .main {
@@ -358,7 +361,9 @@ th {
     cursor: pointer;
     color: white;
     padding: 0.6rem;
+
 }
+
 
 .saludMental {
     margin: 3rem auto;
