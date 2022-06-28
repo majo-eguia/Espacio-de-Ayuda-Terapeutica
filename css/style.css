@@ -60,11 +60,17 @@ nav ul li a {
     text-decoration: none;
     font-size: 2rem;
     font-weight: 300;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
 }
 
 nav ul li a:hover {
-    color: #000;
+    color: rgb(250, 128, 114);
     font-weight: 500;
+    background-size: 100% 2px;
 }
 
 header {
