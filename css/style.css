@@ -82,10 +82,11 @@ header h1 {
     color: #000;
     font-size: 3.5rem;
     margin-top: 2rem;
-    transform: scaleX(1.25);
-    cursor: pointer;
-    transition: 3s;
+
+
 }
+
+
 
 .main {
     grid-area: main;
@@ -357,11 +358,10 @@ th {
 .contactForm input[type=submit] {
     font-size: inherit;
     grid-area: enviar;
-    background-color: rgb(86, 86, 228);
     cursor: pointer;
     color: white;
     padding: 0.6rem;
-
+    background: linear-gradient(to top white, rgb(86, 86, 228))
 }
 
 
