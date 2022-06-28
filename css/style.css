@@ -24,7 +24,6 @@ body {
 
 nav {
     grid-area: nav;
-    background-color: rgb(86, 86, 228, 0.6);
     padding: 1rem;
     position: sticky;
     top: 0;
@@ -32,6 +31,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(86, 86, 228, 0.6);
 }
 
 nav img {
@@ -47,6 +47,8 @@ nav ul {
     justify-content: space-between;
     width: 100%;
     padding-top: 5rem;
+
+
 
 }
 
@@ -65,6 +67,7 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: 0% 2px;
     transition: background-size .3s;
+
 }
 
 nav ul li a:hover {
@@ -95,8 +98,7 @@ header h1 {
     padding: 20px;
     margin: 20px;
     display: grid;
-    grid-template-areas:
-        "intro"
+    grid-template-areas: "intro"
         "videos";
 }
 
@@ -137,6 +139,7 @@ p {
     font-size: 2rem;
     margin: 30px;
     padding: 20px;
+    background-image: linear-gradient(to left, rgb(117, 11, 117), white);
 }
 
 .video {
@@ -175,7 +178,7 @@ p {
     box-sizing: border-box;
     line-height: 3.5rem;
     color: #000;
-    background-color: rgb(86, 86, 228, 0.6);
+    background-image: linear-gradient(to left, rgb(173, 98, 173), rgb(238, 225, 225));
 }
 
 .linkUno {
@@ -222,6 +225,7 @@ p {
     box-sizing: border-box;
     line-height: 3.5rem;
     color: #000;
+    background-image: linear-gradient(to left, rgb(117, 11, 117), white);
 }
 
 .seccionDeTerapia img {
@@ -272,6 +276,7 @@ td {
     border-collapse: collapse;
     padding: 0.3em;
     caption-side: top;
+    background-image: linear-gradient(to left, rgb(117, 11, 117), rgb(201, 113, 113));
 }
 
 caption {
@@ -281,7 +286,7 @@ caption {
 }
 
 th {
-    background: rgb(86, 86, 228);
+    background: rgb(86, 86, 228, 0.6);
 }
 
 /* Termina Servicios */
@@ -359,9 +364,11 @@ th {
     font-size: inherit;
     grid-area: enviar;
     cursor: pointer;
-    color: white;
+    color: black;
     padding: 0.6rem;
-    background: linear-gradient(to top white, rgb(86, 86, 228))
+    background-color: rgb(86, 86, 228, 0.6);
+
+
 }
 
 
@@ -400,8 +407,7 @@ th {
     .contactForm {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas:
-            "datosDeContacto tipoDeTerapia"
+        grid-template-areas: "datosDeContacto tipoDeTerapia"
             "tipoDeServicio medioDePago"
             "consulta consulta"
             "cancelar enviar";
