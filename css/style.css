@@ -240,41 +240,6 @@ p {
 
 }
 
-@keyframes colores {
-    0% {
-        width: 100px;
-        background-color: white;
-    }
-
-    25% {
-        width: 150px;
-        background-color: violet
-    }
-
-    50% {
-        width: 200px;
-        background-color: gray;
-    }
-
-    75% {
-        width: 150px;
-        background-color: pink;
-    }
-
-    100% {
-        width: 125px;
-        background-color: violet;
-    }
-}
-
-.colores {
-    animation: colores;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-duration: 25s;
-}
-
 .serviciosDos {
     font-size: 2rem;
     margin: 2rem;
