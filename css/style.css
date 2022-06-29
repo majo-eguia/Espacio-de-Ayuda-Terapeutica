@@ -248,6 +248,10 @@ p {
     font-weight: 300;
 }
 
+.animate__bounceInRight {
+    animation-duration: 2s;
+}
+
 .listadoDeServicios {
     list-style: none;
     font-size: 2.5rem;
