@@ -81,8 +81,6 @@ header h1 {
     color: #000;
     font-size: 3.5rem;
     margin-top: 2rem;
-
-
 }
 
 .main {
@@ -92,7 +90,8 @@ header h1 {
     padding: 20px;
     margin: 20px;
     display: grid;
-    grid-template-areas: "intro"
+    grid-template-areas:
+        "intro"
         "videos";
 }
 
@@ -184,8 +183,6 @@ p {
     color: rgb(86, 86, 228);
 }
 
-
-
 .videoDos {
     margin: 30px;
     border: solid 4px rgb(86, 86, 228);
@@ -225,13 +222,6 @@ p {
 .seccionDeTerapia img {
     width: 50rem;
     border: solid 4px rgb(86, 86, 228);
-}
-
-.rotacion {
-    transform: rotateZ(-360deg);
-    cursor: pointer;
-    transition: transform 6s;
-
 }
 
 .terapias {
@@ -405,10 +395,7 @@ th {
     color: black;
     padding: 0.6rem;
     background-color: rgb(86, 86, 228, 0.6);
-
-
 }
-
 
 .saludMental {
     margin: 3rem auto;
@@ -418,7 +405,7 @@ th {
 
 /* Comienza el responsive */
 
-@media(min-width:1024px) {
+@media(min-width: 1024px) {
     nav {
         flex-direction: row;
         justify-content: space-between;
@@ -445,7 +432,8 @@ th {
     .contactForm {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-areas: "datosDeContacto tipoDeTerapia"
+        grid-template-areas:
+            "datosDeContacto tipoDeTerapia"
             "tipoDeServicio medioDePago"
             "consulta consulta"
             "cancelar enviar";
