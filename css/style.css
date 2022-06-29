@@ -234,16 +234,18 @@ p {
 /* Termina Tipos de Terapia */
 
 .servicios {
-    font-size: 3.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
-
+    color: #fff;
 }
 
-.serviciosDos {
+.servicios h2 {
+    font-size: 3.5rem;
+}
+
+.servicios h3 {
     font-size: 2rem;
-    margin: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    margin-top: 2rem;
+    font-weight: 300;
 }
 
 .listadoDeServicios {
