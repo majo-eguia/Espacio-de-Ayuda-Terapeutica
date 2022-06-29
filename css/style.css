@@ -238,6 +238,8 @@ p {
     color: #fff;
 }
 
+/* Dejo los font-weight en los hijos en lugar de en .servicios porque el user agent tiene precedencia */
+
 .servicios h2 {
     font-size: 3.5rem;
     font-weight: 300;
