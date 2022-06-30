@@ -72,6 +72,23 @@ nav ul li a:hover {
     background-size: 100% 2px;
 }
 
+
+@keyframes tituloSegundoTiposDeTerapia {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+.tituloSegundoTiposDeTerapia {
+    animation-name: tituloSegundoTiposDeTerapia;
+    animation-duration: 3s;
+}
+
 header {
     grid-area: header;
 }
