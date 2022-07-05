@@ -124,27 +124,16 @@ header h1 {
 .tituloSegundoTiposDeTerapia {
     font-size: 4rem;
     margin-bottom: 2rem;
-
 }
 
 .seccionDeTerapia h3 {
     font-size: 3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
-    font-weight: normal;
-    text-align: start;
-    padding: 1rem;
-    ;
 }
 
 .card {
     font-size: 2rem;
-}
-
-.card-img-top {
-    height: 500x;
-    width: 500px;
-
 }
 
 /* termina TIPO DE TERAPIAS */
