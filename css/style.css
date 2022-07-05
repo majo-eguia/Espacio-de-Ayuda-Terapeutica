@@ -112,14 +112,6 @@ header h1 {
 
 }
 
-.videoDos {
-    margin: 30px;
-    border: solid 4px rgb(86, 86, 228);
-    padding: auto;
-    height: 500px;
-    width: 900px;
-}
-
 .imagenDos {
     width: 60%;
     height: 60%;
@@ -169,9 +161,10 @@ header h1 {
         "footer";
 }
 
-@media (min-width:992) and (max-width:1200px) {
-    .navbar {
-        width: 100px;
+@media (min-width: 992px) {
+    .quienes-somos-video {
+        width: 50vw;
+        margin: auto;
     }
 }
 
