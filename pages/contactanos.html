@@ -8,36 +8,47 @@
     <title>Ayuda Terapéutica</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="../index.html">
-            <img src="../img/logo-psicologia.png" alt="Logo de Psicología" width="100px" height="100px" />
-        </a>
-
-        <ul>
-            <li>
-                <a href="../pages/quienes-somos.html">¿Quiénes Somos?</a>
-            </li>
-            <li>
-                <a href="../pages/tipos-de-terapia.html">Tipos de Terapia</a>
-            </li>
-            <li>
-                <a href="../pages/servicios.html">Servicios</a>
-            </li>
-            <li>
-                <a href="../pages/contactanos.html">Contáctanos</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-violet" id="botonera">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo-psicologia.png" alt="Logo de Psicología" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-4">
+                        <a class="nav-link text-white" href="../pages/quienes-somos.html">¿Quiénes
+                            Somos?</a>
+                    </li>
+                    <li class="nav-item  px-4">
+                        <a class="nav-link text-white" href="../pages/tipos-de-terapia.html">Tipos de Terapia</a>
+                    </li>
+                    <li class="nav-item  px-4">
+                        <a class="nav-link text-white" href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item  px-4">
+                        <a class="nav-link text-white" href="../pages/contactanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <header>
         <h1>Espacio de Ayuda Terapéutica</h1>
-
     </header>
-    <main class="main">
+    <main class="main col-md-12">
+        <h2 class="text-white pt-5">Contáctanos</h2>
         <form class="contactForm" action="#">
             <fieldset class="datosDeContacto">
                 <label for="nombre">Nombre:</label>
@@ -63,6 +74,7 @@
             </fieldset>
             <fieldset class="tipoDeServicios">
                 <div>
+                    <h2 class="fs-1 fw-bold">Servicios:</h2>
                     <label for="Terapia-Individual">Terapia Individual</label>
                     <input type="checkbox" id="Terapia-Individual" name="Terapias" value="Terapia Individual" />
                 </div>
@@ -87,6 +99,7 @@
             </fieldset>
             <fieldset class="medioDePago">
                 <div>
+                    <h2 class="fs-1 fw-bold">Medios de pago:</h2>
                     <label for="Efectivo">Efectivo</label>
                     <input type="radio" id="Efectivo" name="Medios-de-Pago" value="Efectivo" />
                 </div>
@@ -111,14 +124,14 @@
                     <input type="radio" id="Mercado Pago" name="Medios-de-Pago" value="Mercado Pago" />
                 </div>
             </fieldset>
-            <div class="consulta">
-                <h3>¿Tenés Preguntas?</h3>
+            <div class="consulta fs-3">
+                <h3 class="fs-1">¿Tenés Preguntas?</h3>
                 <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea> <br>
             </div>
             <input class="cancelar" type="reset" value="Cancelar" />
             <input class="enviar" type="submit" value="Enviar" />
         </form>
-        <img src="../img/consulta.png" alt="Consulta Psicológica" class="saludMental" />
+        <img src="../img/consulta.png" class="img-fluid rounded mx-auto d-block" alt="Cuida tu salud mental"> />
     </main>
     <footer class="redes">
         <h3 class="texto">Seguinos en nuestras redes sociales</h3>
@@ -132,6 +145,9 @@
             <img src="../img/logo-instagram.png" alt="Logo de Instagram" />
         </a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
