@@ -141,12 +141,6 @@ header h1 {
 .servicios {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
-    display: grid;
-    grid-template-areas:
-        "nav"
-        "header"
-        "main"
-        "footer";
 }
 
 @keyframes tituloSegundoTiposDeTerapia {
@@ -235,7 +229,7 @@ th {
 }
 
 .contactForm h2 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
 }
 
 .contactForm .text-area-form-label {
