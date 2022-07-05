@@ -189,6 +189,10 @@ header h1 {
     padding: 1rem;
 }
 
+.tablaDos tbody tr>* {
+    text-align: center;
+}
+
 th,
 td {
     width: 25%;
