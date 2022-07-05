@@ -138,7 +138,6 @@ header h1 {
 
 /* termina TIPO DE TERAPIAS */
 
-
 .servicios {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
@@ -148,13 +147,6 @@ header h1 {
         "header"
         "main"
         "footer";
-}
-
-@media (min-width: 992px) {
-    .quienes-somos-video {
-        width: 50vw;
-        margin: auto;
-    }
 }
 
 @keyframes tituloSegundoTiposDeTerapia {
@@ -235,85 +227,50 @@ th {
 }
 
 .contactForm {
-    width: fit-content;
-    margin: 2rem auto;
-    font-size: 1.8rem;
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-    color: #fff;
     font-size: 2.5rem;
 }
 
-.contactForm fieldset {
-    padding: 2rem;
-    text-align: left;
+.contactForm h2 {
+    font-size: 3.2rem;
 }
 
-.contactForm fieldset input:placeholder {
+.contactForm .text-area-form-label {
+    font-size: 3.2rem;
+}
+
+.contactForm input::placeholder {
     padding-left: 0.5rem;
 }
 
-.datosDeContacto {
-    grid-area: datosDeContacto;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
-.tipoDeTerapia {
-    grid-area: tipoDeTerapia;
+.w-fit-content {
+    width: fit-content;
 }
 
 .tipoDeTerapia select {
-    font-size: inherit;
     padding: 0.3rem;
     border-radius: 0.5rem;
 }
 
-.tipoDeServicios {
-    grid-area: tipoDeServicio;
-    display: flex;
-    flex-direction: column;
+.btn-contact-form {
+    font-size: 2rem;
 }
 
-.medioDePago {
-    grid-area: medioDePago;
-    display: flex;
-    flex-direction: column;
+.btn-secondary-contact-form {
+    background-color: white;
 }
 
-.contactForm .consulta {
-    grid-area: consulta;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-}
-
-.contactForm .consulta h3 {
-    font-weight: 300;
-}
-
-.contactForm .consulta textarea {
-    font-size: inherit;
-}
-
-.contactForm input {
-    font-size: inherit;
-}
-
-.contactForm input[type=reset] {
-    font-size: inherit;
-    grid-area: cancelar;
-    cursor: pointer;
-    padding: 0.6rem;
-}
-
-.contactForm input[type=submit] {
-    font-size: inherit;
-    grid-area: enviar;
-    cursor: pointer;
-    color: #fff;
-    padding: 0.6rem;
+.btn-primary-contact-form {
     background-color: rgb(86, 86, 228, 0.6);
+    color: white;
+}
+
+@media (min-width: 992px) {
+    .quienes-somos-video {
+        width: 50vw;
+        margin: auto;
+    }
+
+    .contactForm {
+        width: 75vw;
+    }
 }

@@ -47,89 +47,99 @@
     <header>
         <h1>Espacio de Ayuda Terapéutica</h1>
     </header>
-    <main class="main col-md-12">
+    <main class="main">
         <h2 class="text-white pt-5">Contáctanos</h2>
-        <form class="contactForm" action="#">
-            <fieldset class="datosDeContacto">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" placeholder="María José" required />
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="ejemplo@gmail.com" required />
-
-                <label for="Celular">Celular:</label>
-                <input type="phone" id="phone" placeholder="1561888566" required />
-            </fieldset>
-            <fieldset class="tipoDeTerapia">
-                <label for="Elegí-tu-tipo-de-terapia">Elegí tu tipo de terapia</label>
-                <select name="Elegí tu tipo de terapia" id="Elegí-tu-tipo-de-terapia">
+        <form class="my-4 text-white contactForm row g-4 m-auto" action="#">
+            <div class="col-md-6 col-lg-4">
+                <label class="form-label" for="nombre">Nombre:</label>
+                <input class="form-control" type="text" id="nombre" placeholder="María José" required />
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-control" type="email" id="email" placeholder="ejemplo@gmail.com" required />
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <label class="form-label" for="Celular">Celular:</label>
+                <input class="form-control" type="phone" id="phone" placeholder="1561888566" required />
+            </div>
+            <div class="col-md-6 col-lg-12">
+                <label class="form-label" for="Elegí-tu-tipo-de-terapia">Elegí tu tipo de terapia</label>
+                <select class="form-select" name="Elegí tu tipo de terapia" id="Elegí-tu-tipo-de-terapia">
                     <option value="Psicoanalisis">Psicoanálisis</option>
-                    <option value="Terapia Cognitiva Conductual">
-                        Terapia Cognitiva Conductual
-                    </option>
+                    <option value="Terapia Cognitiva Conductual"> Terapia Cognitiva Conductual</option>
                     <option value="Logoterapia">Logoterapia</option>
                     <option value="Terapia de la Gestalt">Terapia de la Gestalt</option>
                     <option value="Mindfulness">Mindfulness</option>
                 </select>
-            </fieldset>
-            <fieldset class="tipoDeServicios">
-                <div>
-                    <h2 class="fs-1 fw-bold">Servicios:</h2>
-                    <label for="Terapia-Individual">Terapia Individual</label>
-                    <input type="checkbox" id="Terapia-Individual" name="Terapias" value="Terapia Individual" />
-                </div>
-                <div>
-                    <label for="Terapia-de-Grupo">Terapia de Grupo</label>
-                    <input type="checkbox" id="Terapia-de-Grupo" name="Terapias" value="Terapia de Grupo" />
-                </div>
-                <div>
-                    <label for="Terapia-de-Niños-y-Adolescentes">Terapia de Niños y
-                        Adolescentes</label>
-                    <input type="checkbox" id="Terapia-de-Niños-y-Adolescentes" name="Terapias"
-                        value="Terapia de Niños y Adolescentes" />
-                </div>
-                <div>
-                    <label for="Terapia-de-Familia">Terapia de Familia</label>
-                    <input type="checkbox" id="Terapia-de-Familia" name="Terapias" value="Terapia de Familia" />
-                </div>
-                <div>
-                    <label for="Terapia-de-Pareja">Terapia de Pareja</label>
-                    <input type="checkbox" id="Terapia-de-Pareja" name="Terapias" value="Terapia de Pareja" />
-                </div>
-            </fieldset>
-            <fieldset class="medioDePago">
-                <div>
-                    <h2 class="fs-1 fw-bold">Medios de pago:</h2>
-                    <label for="Efectivo">Efectivo</label>
-                    <input type="radio" id="Efectivo" name="Medios-de-Pago" value="Efectivo" />
-                </div>
-                <div>
-                    <label for="Tarjeta de Credito">Tarjeta de Crédito</label>
-                    <input type="radio" id="Tarjeta de Credito" name="Medios-de-Pago" value="Tarjeta de Crédito" />
-
-                </div>
-                <div>
-                    <label for="Tarjeta de Debito">Tarjeta de Débito</label>
-                    <input type="radio" id="Tarjeta de Debito" name="Medios-de-Pago" value="Tarjeta de Débito" />
-
-                </div>
-                <div>
-                    <label for="Transferencia Bancaria">Transferencia Bancaria</label>
-                    <input type="radio" id="Transferencia Bancaria" name="Medios-de-Pago"
-                        value="Transferencia Bancaria" />
-
-                </div>
-                <div>
-                    <label for="Mercado Pago">Mercado Pago</label>
-                    <input type="radio" id="Mercado Pago" name="Medios-de-Pago" value="Mercado Pago" />
-                </div>
-            </fieldset>
-            <div class="consulta fs-3">
-                <h3 class="fs-1">¿Tenés Preguntas?</h3>
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea> <br>
             </div>
-            <input class="cancelar" type="reset" value="Cancelar" />
-            <input class="enviar" type="submit" value="Enviar" />
+            <div class="col-md-6 col-lg-6 text-start w-fit-content my-3 mx-auto">
+                <div class="form-check">
+                    <h2>Servicios</h2>
+                    <input form-check-input type="checkbox" id="Terapia-Individual" name="Terapias"
+                        value="Terapia Individual" />
+                    <label class="form-check-label" for="Terapia-Individual">Terapia Individual</label>
+                </div>
+                <div class="form-check">
+                    <input form-check-input type="checkbox" type="checkbox" id="Terapia-de-Grupo" name="Terapias"
+                        value="Terapia de Grupo" />
+                    <label class="form-check-label" for="Terapia-de-Grupo">Terapia de Grupo</label>
+                </div>
+                <div class="form-check">
+                    <input form-check-input type="checkbox" type="checkbox" id="Terapia-de-Niños-y-Adolescentes"
+                        name="Terapias" value="Terapia de Niños y Adolescentes" />
+                    <label class="form-check-label" for="Terapia-de-Niños-y-Adolescentes">Terapia de Niños y
+                        Adolescentes</label>
+                </div>
+                <div class="form-check">
+                    <input form-check-input type="checkbox" type="checkbox" id="Terapia-de-Familia" name="Terapias"
+                        value="Terapia de Familia" />
+                    <label class="form-check-label" for="Terapia-de-Familia">Terapia de Familia</label>
+                </div>
+                <div class="form-check">
+                    <input form-check-input type="checkbox" type="checkbox" id="Terapia-de-Pareja" name="Terapias"
+                        value="Terapia de Pareja" />
+                    <label class="form-check-label" for="Terapia-de-Pareja">Terapia de Pareja</label>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 text-start w-fit-content my-3 mx-auto">
+                <h2>Medios de pago</h2>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="Efectivo" name="Medios-de-Pago" value="Efectivo" />
+                    <label class="form-check-label" for="Efectivo">Efectivo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="Tarjeta de Credito" name="Medios-de-Pago"
+                        value="Tarjeta de Crédito" />
+                    <label class="form-check-label" for="Tarjeta de Credito">Tarjeta de Crédito</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="Tarjeta de Debito" name="Medios-de-Pago"
+                        value="Tarjeta de Débito" />
+                    <label class="form-check-label" for="Tarjeta de Debito">Tarjeta de Débito</label>
+
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="Transferencia Bancaria" name="Medios-de-Pago"
+                        value="Transferencia Bancaria" />
+                    <label class="form-check-label" for="Transferencia Bancaria">Transferencia Bancaria</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" id="Mercado Pago" name="Medios-de-Pago"
+                        value="Mercado Pago" />
+                    <label class="form-check-label" for="Mercado Pago">Mercado Pago</label>
+                </div>
+            </div>
+            <div>
+                <label class="form-label text-area-form-label" for="mensaje">¿Tenés Preguntas?</label>
+                <textarea class="form-control" name="mensaje" id="mensaje" rows="5"></textarea>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-contact-form btn-secondary-contact-form col-12 p-2"
+                    type="reset">Cancelar</button>
+            </div>
+            <div class="col-md-6">
+                <button class="btn btn-contact-form btn-primary-contact-form col-12 p-2" type="submit">Enviar</button>
+            </div>
         </form>
         <img src="../img/consulta.png" class="img-fluid rounded mx-auto d-block" alt="Cuida tu salud mental"> />
     </main>
