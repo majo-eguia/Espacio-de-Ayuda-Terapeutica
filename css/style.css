@@ -41,10 +41,6 @@ body {
     font-size: 2.5rem;
 }
 
-header {
-    grid-area: header;
-}
-
 header h1 {
     text-align: center;
     color: #000;
@@ -54,61 +50,38 @@ header h1 {
 }
 
 .main {
-    grid-area: main;
     background-color: #974f94;
     text-align: center;
-    padding: 20px;
-    margin: 20px;
-    display: grid;
-    grid-template-areas:
-        "intro"
-        "videos";
-}
-
-.main .intro {
-    grid-area: intro;
-}
-
-.main .seccionDeVideos {
-    grid-area: videos;
-}
-
-.main .videos {
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
-    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
 }
 
 .tituloSegundo {
-    padding: 40px 20px;
-    border: double 2px #161616;
-    box-sizing: border-box;
+    padding: 4rem 2rem;
+    border: double 0.2rem #161616;
     font-size: 2.5rem;
     background-image: linear-gradient(to left, rgb(211, 145, 211), white);
     font-weight: 800;
 }
 
-.par {
-    color: rgb(245, 243, 243);
-    line-height: 2rem;
+.parrafo-index {
+    color: white;
+    line-height: 3rem;
     font-size: 2.5rem;
-    margin: 40px;
-    padding: auto;
+    margin: 4rem;
 }
 
 .tituloMasChico {
-    text-align: center;
-    border: solid 2px rgb(86, 86, 228);
+    border: solid 0.2rem rgb(86, 86, 228);
     font-size: 2.3rem;
-    margin: 30px;
-    padding: 20px;
+    margin: 3rem;
+    padding: 2rem;
     background-image: linear-gradient(to left, rgb(117, 11, 117), white);
     font-weight: 700;
 }
 
 .video {
-    border: solid 4px rgb(86, 86, 228);
+    border: solid 0.4rem rgb(86, 86, 228);
 }
 
 .texto {
