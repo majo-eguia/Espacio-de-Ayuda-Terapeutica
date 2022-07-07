@@ -132,8 +132,12 @@ header h1 {
     color: #fff;
 }
 
-.card {
-    font-size: 2rem;
+.accordion-button {
+    font-size: 3.5rem;
+}
+
+.accordion-body.text-center.px-4 {
+    font-size: 2.7rem;
 }
 
 /* termina TIPO DE TERAPIAS */
