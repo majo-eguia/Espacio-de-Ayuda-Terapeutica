@@ -212,7 +212,7 @@ caption {
 }
 
 th {
-    background: rgb(86, 86, 228, 0.5);
+    background: rgba(86, 86, 228, 0.5);
 }
 
 .list-group.w-50 {
@@ -264,7 +264,7 @@ th {
 }
 
 .btn-primary-contact-form {
-    background-color: rgba(86, 86, 228, 0.6);
+    background-color: rgba(86, 86, 228, 0.5);
     color: #F5F0F0;
 
 }
