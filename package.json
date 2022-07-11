@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/majo-eguia/Espacio-de-Ayuda-Terapeutica/issues"
   },
-  "homepage": "https://github.com/majo-eguia/Espacio-de-Ayuda-Terapeutica#readme"
+  "homepage": "https://github.com/majo-eguia/Espacio-de-Ayuda-Terapeutica#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
 }
