@@ -2,7 +2,7 @@
 
 ![Logo](img/logo-psicologia.png)
 
-Este es un sitio web destinado a brindar información sobre los distintos tipos de terapias que utilizamos para otrogar terapia y que sea el paciente él que elija la corriente con la cuál quiere ser atendido.
+Este es un sitio web destinado a brindar información sobre los distintos tipos de terapias que utilizamos para otorgar terapia y que sea el paciente él que elija la corriente con la cuál quiere ser atendido.
 
 ## Links
 
