@@ -18,7 +18,7 @@ body {
 }
 
 .bg-violet {
-    background-color: rgb(86, 86, 228, 0.7);
+    background-color: rgba(86, 86, 228, 0.7);
 }
 
 #botonera img {
@@ -264,7 +264,7 @@ th {
 }
 
 .btn-primary-contact-form {
-    background-color: rgb(86, 86, 228, 0.6);
+    background-color: rgba(86, 86, 228, 0.6);
     color: white;
 }
 
