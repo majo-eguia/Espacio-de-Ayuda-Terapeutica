@@ -26,15 +26,15 @@ body {
     height: 100px;
 }
 
+.navbar-toggler {
+    font-size: 2rem;
+    background-color: #F5F0F0;
+}
+
 .nav-item {
     font-size: 2rem;
     font-family: 'Tiro Gurmukhi', serif;
     text-align: center;
-}
-
-.navbar-toggler {
-    font-size: 2rem;
-    background-color: #F5F0F0;
 }
 
 .nav-link:hover {
