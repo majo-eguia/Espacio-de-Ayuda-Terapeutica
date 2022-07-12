@@ -66,6 +66,13 @@ header h1 {
 .video {
   border: solid 0.4rem #5656e4; }
 
+.tituloQuienesSomos {
+  font-size: 3.5rem;
+  color: #F5F0F0;
+  font-weight: 300; }
+  .tituloQuienesSomos .text-center.px-4 .linkUno {
+    color: #ff8052; }
+
 .redes {
   grid-area: footer;
   background-color: rgba(86, 86, 228, 0.7);
