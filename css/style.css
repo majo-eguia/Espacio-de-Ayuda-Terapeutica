@@ -74,16 +74,16 @@ header h1 {
 }
 
 .tituloMasChico {
-    border: solid 0.2rem rgb(86, 86, 228);
+    border: solid 0.2rem #5656e4;
     font-size: 2.3rem;
     margin: 3rem;
     padding: 2rem;
-    background-image: linear-gradient(to left, rgb(117, 11, 117), white);
+    background-image: linear-gradient(to left, #750b75, white);
     font-weight: 700;
 }
 
 .video {
-    border: solid 0.4rem rgb(86, 86, 228);
+    border: solid 0.4rem #5656e4;
 }
 
 .texto {
@@ -110,7 +110,7 @@ header h1 {
 }
 
 .text-center.px-4 .linkUno {
-    color: hsl(16, 100%, 66%);
+    color: #ff8052;
 
 }
 
@@ -192,7 +192,7 @@ td {
     width: 25%;
     text-align: left;
     vertical-align: top;
-    border: 2px solid rgb(86, 86, 228);
+    border: 2px solid #5656e4;
     border-collapse: collapse;
     padding: 0.3em;
     caption-side: top;
