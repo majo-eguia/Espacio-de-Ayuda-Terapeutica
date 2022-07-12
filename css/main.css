@@ -86,6 +86,20 @@ header h1 {
   .accordion-button .fs-tipo-de-terapia {
     font-size: 2.7rem; }
 
+@keyframes tituloSegundoTiposDeTerapia {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.tituloSegundoTiposDeTerapia {
+  animation-name: tituloSegundoTiposDeTerapia;
+  animation-duration: 3s; }
+
+.servicios {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #F5F0F0; }
+
 .redes {
   grid-area: footer;
   background-color: rgba(86, 86, 228, 0.7);
