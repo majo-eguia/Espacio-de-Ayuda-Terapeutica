@@ -1,0 +1,35 @@
+.text-white.pt-5 {
+    font-size:$textLg;
+    font-weight: $light;
+}
+.contactForm {
+    font-size: $textSm;
+    .contactForm h2 {
+        font-size: $textSm;
+        .contactForm .text-area-form-label {
+            font-size: 3.2rem;
+        }
+        
+    }
+}
+.contactForm input::placeholder {
+    padding-left: 0.5rem;
+}
+.w-fit-content {
+    width: fit-content;
+}
+.tipoDeTerapia select {
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+.btn-contact-form {
+    font-size: $textXs;
+    .btn-secondary-contact-form {
+        background-color: $white;
+        .btn-primary-contact-form {
+            background-color: $backgroundThYFormColor;
+            color: $white;
+        
+        }
+    }
+}
