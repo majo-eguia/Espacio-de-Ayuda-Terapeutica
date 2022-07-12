@@ -51,12 +51,12 @@ header h1 {
   font-size: 2.5rem;
   background-image: linear-gradient(to left, #d391d3, white);
   font-weight: 900; }
-  .tituloSegundo .parrafoIndex {
+  .tituloSegundo .parrafo-index {
     color: #F5F0F0;
     line-height: 3rem;
     font-size: 2.5rem;
     margin: 4rem; }
-    .tituloSegundo .parrafoIndex .tituloMasChico {
+    .tituloSegundo .parrafo-index .tituloMasChico {
       border: solid 0.2rem #5656e4;
       font-size: 2.3rem;
       margin: 3rem;
