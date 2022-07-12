@@ -99,6 +99,51 @@ header h1 {
 .servicios {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #F5F0F0; }
+  .servicios .servicios h2 {
+    font-size: 4rem;
+    font-weight: 300; }
+    .servicios .servicios h2 .servicios h3 {
+      font-size: 2.5rem;
+      margin-top: 2rem;
+      font-weight: 300;
+      text-align: start; }
+
+.animate__bounceInRight {
+  animation-duration: 2s; }
+
+.tablaDos {
+  width: 100%;
+  border: 3px solid #F5F0F0;
+  font-size: 2rem;
+  margin: auto;
+  padding: 1rem; }
+  .tablaDos .tablaDos tbody tr > * {
+    text-align: center; }
+    .tablaDos .tablaDos tbody tr > * th,
+    .tablaDos .tablaDos tbody tr > * td {
+      width: 25%;
+      text-align: left;
+      vertical-align: top;
+      border: 2px solid #5656e4;
+      border-collapse: collapse;
+      padding: 0.3em;
+      caption-side: top;
+      background-image: linear-gradient(to left, #d391d3, white); }
+
+caption {
+  padding: 0.3em;
+  color: #F5F0F0;
+  background: #0F0E0E; }
+
+th {
+  background: rgba(86, 86, 228, 0.5); }
+
+.list-group.w-50 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem; }
 
 .redes {
   grid-area: footer;
