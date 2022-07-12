@@ -51,18 +51,20 @@ header h1 {
   font-size: 2.5rem;
   background-image: linear-gradient(to left, #d391d3, white);
   font-weight: 900; }
-  .tituloSegundo .parrafo-index {
-    color: #F5F0F0;
-    line-height: 3rem;
-    font-size: 2.5rem;
-    margin: 4rem; }
-    .tituloSegundo .parrafo-index .tituloMasChico {
-      border: solid 0.2rem #5656e4;
-      font-size: 2.3rem;
-      margin: 3rem;
-      padding: 2rem;
-      background-image: linear-gradient(to left, #750b75, white);
-      font-weight: 700; }
+
+.parrafo-index {
+  color: #F5F0F0;
+  line-height: 3rem;
+  font-size: 2.5rem;
+  margin: 4rem; }
+
+.tituloMasChico {
+  border: solid 0.2rem #5656e4;
+  font-size: 2.3rem;
+  margin: 3rem;
+  padding: 2rem;
+  background-image: linear-gradient(to left, #750b75, white);
+  font-weight: 700; }
 
 .video {
   border: solid 0.4rem #5656e4; }
@@ -82,8 +84,9 @@ header h1 {
   font-size: 3.5rem;
   color: #F5F0F0;
   font-weight: 300; }
-  .tituloQuienesSomos .text-center.px-4 .linkUno {
-    color: #ff8052; }
+
+.text-center.px-4 .linkUno {
+  color: #ff8052; }
 
 .tituloSegundoTiposDeTerapia {
   font-size: 4rem;
