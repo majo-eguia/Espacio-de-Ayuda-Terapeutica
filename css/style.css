@@ -150,12 +150,14 @@ header h1 {
 .tituloSegundoTiposDeTerapia {
     animation-name: tituloSegundoTiposDeTerapia;
     animation-duration: 3s;
+}
 
-    .servicios {
+/*termina tipos de terapia */
+.servicios {
 
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        color: #F5F0F0;
-    }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #F5F0F0;
+}
 
 
 }
