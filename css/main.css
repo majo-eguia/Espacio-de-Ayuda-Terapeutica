@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 * {
+  font-family: "Tiro Gurmukhi", serif;
   padding: 0;
   margin: 0; }
 
