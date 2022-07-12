@@ -196,7 +196,7 @@ td {
     border-collapse: collapse;
     padding: 0.3em;
     caption-side: top;
-    background-image: linear-gradient(to left, rgb(211, 145, 211), white);
+    background-image: linear-gradient(to left, #d391d3, white);
 }
 
 caption {
