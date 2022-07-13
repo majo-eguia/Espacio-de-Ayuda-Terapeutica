@@ -91,15 +91,17 @@ header h1 {
 .tituloSegundoTiposDeTerapia {
   font-size: 4rem;
   margin-bottom: 2rem; }
-  .tituloSegundoTiposDeTerapia .seccionDeTerapia h3 {
-    font-size: 3rem;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    color: #F5F0F0; }
+
+.seccionDeTerapia h3 {
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #F5F0F0; }
 
 .accordion-button {
   font-size: 3.5rem; }
-  .accordion-button .fs-tipo-de-terapia {
-    font-size: 2.7rem; }
+
+.fs-tipo-de-terapia {
+  font-size: 2.7rem; }
 
 @keyframes tituloSegundoTiposDeTerapia {
   from {
@@ -114,14 +116,16 @@ header h1 {
 .servicios {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #F5F0F0; }
-  .servicios .servicios h2 {
-    font-size: 4rem;
-    font-weight: 300; }
-    .servicios .servicios h2 .servicios h3 {
-      font-size: 2.5rem;
-      margin-top: 2rem;
-      font-weight: 300;
-      text-align: start; }
+
+.servicios h2 {
+  font-size: 4rem;
+  font-weight: 300; }
+
+.servicios h3 {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+  font-weight: 300;
+  text-align: start; }
 
 .animate__bounceInRight {
   animation-duration: 2s; }
@@ -132,18 +136,20 @@ header h1 {
   font-size: 2rem;
   margin: auto;
   padding: 1rem; }
-  .tablaDos .tablaDos tbody tr > * {
-    text-align: center; }
-    .tablaDos .tablaDos tbody tr > * th,
-    .tablaDos .tablaDos tbody tr > * td {
-      width: 25%;
-      text-align: left;
-      vertical-align: top;
-      border: 2px solid #5656e4;
-      border-collapse: collapse;
-      padding: 0.3em;
-      caption-side: top;
-      background-image: linear-gradient(to left, #d391d3, white); }
+
+.tablaDos tbody tr > * {
+  text-align: center; }
+
+th,
+td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 2px solid #5656e4;
+  border-collapse: collapse;
+  padding: 0.3em;
+  caption-side: top;
+  background-image: linear-gradient(to left, #d391d3, white); }
 
 caption {
   padding: 0.3em;
