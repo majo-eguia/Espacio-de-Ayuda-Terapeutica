@@ -1,13 +1,13 @@
+.redes {
+    grid-area: footer;
+    background-color: $backgroundColorNavYFooter;
+    text-align: center;
+    padding: $textXxs;
 
-    .redes {
-        grid-area: footer;
-        background-color: $backgroundColorNavYFooter;
-        text-align: center;
-        padding: $textXxs; 
-   .texto {
-    font-size: $textLg;
-    font-family: $footerFont;
-    color: $white;
-    font-weight: $medium; 
-   }
+    .texto {
+        font-size: $textLg;
+        font-family: $footerFont;
+        color: $white;
+        font-weight: $medium;
+    }
 }

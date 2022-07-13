@@ -2,15 +2,17 @@
   padding: 4rem 2rem;
   border: double 0.2rem $black;
   font-size: $textSm;
-  background-image: linear-gradient(to left, rgb(211, 145, 211), white);
+  background-image: $backgroundImageIndexYServiciosColor;
   font-weight: $extraBold;
 }
+
 .parrafo-index {
   color: $white;
   line-height: $textMd;
   font-size: $textSm;
   margin: $textXl;
 }
+
 .tituloMasChico {
   border: solid 0.2rem $borderColor;
   font-size: 2.3rem;
