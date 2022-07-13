@@ -1,13 +1,16 @@
 //imports
-@import "partials/variables";
-@import "partials/comunes";
-@import "partials/navBar";
-@import "partials/header";
-@import "partials/main";
-@import "partials/index";
-@import "partials/footer";
-@import "partials/quienesSomos";
-@import "partials/tiposDeTerapia";
-@import "partials/servicios";
-@import "partials/contactanos";
-@import "partials/mediaQuerys";
+@import "base/variables";
+@import "base/comunes";
+
+@import "layout/navBar";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+@import "pages/index";
+@import "pages/quienesSomos";
+@import "pages/tiposDeTerapia";
+@import "pages/servicios";
+@import "pages/contactanos";
+
+@import "mediaQuerys";
