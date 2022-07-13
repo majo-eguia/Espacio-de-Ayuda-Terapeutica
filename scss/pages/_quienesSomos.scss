@@ -1,7 +1,16 @@
 .tituloQuienesSomos {
     font-size: $textLg;
     color: $white;
-    font-weight: $light;}
-    .text-center.px-4 .linkUno {
-        color:$linkColor;
+    font-weight: $light;
+}
+
+.text-center.px-4 .linkUno {
+    color: $linkColor;
+}
+
+@media (min-width: 992px) {
+    .quienes-somos-video {
+        width: 50vw;
+        margin: auto;
     }
+}
