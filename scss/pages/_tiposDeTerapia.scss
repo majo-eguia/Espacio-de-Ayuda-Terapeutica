@@ -1,20 +1,25 @@
 .tituloSegundoTiposDeTerapia {
     font-size: $textXl;
-    margin-bottom: $textXs;}
-    .seccionDeTerapia h3 {
-        font-size: $textMd;
-        font-family:$secondaryFont;
-        color: $white;
-    }
+    margin-bottom: $textXs;
+    animation-name: opacidadDe0A1;
+    animation-duration: 3s;
+}
+
+.seccionDeTerapia h3 {
+    font-size: $textMd;
+    font-family: $secondaryFont;
+    color: $white;
+}
 
 .accordion-button {
-    font-size: $textLg;}
+    font-size: $textLg;
+}
 
-    .fs-tipo-de-terapia {
-        font-size: 2.7rem;
-    }
+.fs-tipo-de-terapia {
+    font-size: 2.7rem;
+}
 
-@keyframes tituloSegundoTiposDeTerapia {
+@keyframes opacidadDe0A1 {
     from {
         opacity: 0
     }
@@ -22,9 +27,4 @@
     to {
         opacity: 1
     }
-}
-
-.tituloSegundoTiposDeTerapia {
-    animation-name: tituloSegundoTiposDeTerapia;
-    animation-duration: 3s;
 }
