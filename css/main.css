@@ -189,11 +189,13 @@ th {
 
 .btn-contact-form {
   font-size: 2rem; }
-  .btn-contact-form .btn-secondary-contact-form {
-    background-color: #F5F0F0; }
-    .btn-contact-form .btn-secondary-contact-form .btn-primary-contact-form {
-      background-color: rgba(86, 86, 228, 0.5);
-      color: #F5F0F0; }
+
+.btn-secondary-contact-form {
+  background-color: #F5F0F0; }
+
+.btn-primary-contact-form {
+  background-color: rgba(86, 86, 228, 0.5);
+  color: #F5F0F0; }
 
 @media (min-width: 992px) {
   .quienes-somos-video {
