@@ -8,7 +8,6 @@
     }
 
     @mixin servicios ($size, $color, $weight) {
-        font-family: $secondaryFont;
         font-size: $size;
         color: $color;
         font-weight: $weight;
