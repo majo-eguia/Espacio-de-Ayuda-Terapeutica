@@ -7,11 +7,17 @@
         font-weight: $light;
     }
 
-    h3 {
-        font-size: $textSm;
+    @mixin servicios ($size, $color, $weight) {
+        font-family: $secondaryFont;
+        font-size: $size;
+        color: $color;
+        font-weight: $weight;
         margin-top: $textXs;
-        font-weight: $light;
         text-align: start;
+    }
+
+    h3 {
+        @include servicios (2.5rem, #F5F0F0, 300)
     }
 }
 
