@@ -1,5 +1,5 @@
 .tituloQuienesSomos {
-    font-size: $textLg;
+    font-size: map-get($map: $tamaños , $key: 'textLg');
     color: $white;
     font-weight: $light;
 }

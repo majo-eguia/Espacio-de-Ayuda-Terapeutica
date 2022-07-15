@@ -3,7 +3,7 @@
     color: $white;
 
     h2 {
-        font-size: $textXl;
+        font-size: map-get($map: $tamaños , $key: 'textXl');
         font-weight: $light;
     }
 
@@ -27,9 +27,9 @@
 .tablaDos {
     width: 100%;
     border: 3px solid $white;
-    font-size: $textXs;
+    font-size: map-get($map: $tamaños , $key: 'textXs');
     margin: auto;
-    padding: $textXxs;
+    padding: map-get($map: $tamaños , $key: 'textXxs');
 
     th,
     td {
@@ -63,5 +63,5 @@ caption {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: $textXxs;
+    padding: map-get($map: $tamaños , $key: 'textXxs');
 }

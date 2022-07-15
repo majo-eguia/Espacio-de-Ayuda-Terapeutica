@@ -1,7 +1,7 @@
 header h1 {
     text-align: center;
     color: $black;
-    font-size: $textXl;
-    margin-top: $textXs;
+    font-size: map-get($map: $tamaños , $key: 'textXl');
+    margin-top: map-get($map: $tamaños , $key: 'textXs');
     font-weight: $extraBold;
 }

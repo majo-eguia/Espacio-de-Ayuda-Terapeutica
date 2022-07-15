@@ -1,18 +1,18 @@
 .tituloSegundoTiposDeTerapia {
-    font-size: $textXl;
-    margin-bottom: $textXs;
+    font-size: map-get($map: $tamaños , $key: 'textXl');
+    margin-bottom: map-get($map: $tamaños , $key: 'textXs');
     animation-name: opacidadDe0A1;
     animation-duration: 3s;
 }
 
 .seccionDeTerapia h3 {
-    font-size: $textMd;
+    font-size: map-get($map: $tamaños , $key: 'textMd');
     font-family: $secondaryFont;
     color: $white;
 }
 
 .accordion-button {
-    font-size: $textLg;
+    font-size: map-get($map: $tamaños , $key: 'textXl');
 }
 
 .fs-tipo-de-terapia {

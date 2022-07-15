@@ -16,14 +16,15 @@ $mainFont: 'Tiro Gurmukhi', serif;
 $secondaryFont: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 $footerFont: 'Dancing Script', cursive;
 
-// tamaños de letra
-
-$textXxs: 1rem;
-$textXs: 2rem;
-$textSm: 2.5rem;
-$textMd: 3rem;
-$textLg: 3.5rem;
-$textXl: 4rem;
+// tamaños de letra map
+$tamaños: (
+    'textXxs': 1rem,
+    'textXs': 2rem,
+    'textSm': 2.5rem,
+    'textMd': 3rem,
+    'textLg': 3.5rem,
+    'textXl': 4rem,
+);
 
 //peso de la letra
 
