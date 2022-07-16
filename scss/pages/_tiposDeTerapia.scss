@@ -1,5 +1,5 @@
 .tituloSegundoTiposDeTerapia {
-    font-size: map-get($map: $tamaños , $key: 'textXl');
+    font-size: map-get($map: $tamaños , $key: 'textLg');
     margin-bottom: map-get($map: $tamaños , $key: 'textXs');
     animation-name: opacidadDe0A1;
     animation-duration: 3s;
@@ -12,11 +12,11 @@
 }
 
 .accordion-button {
-    font-size: map-get($map: $tamaños , $key: 'textXl');
+    font-size: map-get($map: $tamaños , $key: 'textMd');
 }
 
 .fs-tipo-de-terapia {
-    font-size: 2.7rem;
+    font-size: 2.3rem;
 }
 
 @keyframes opacidadDe0A1 {
