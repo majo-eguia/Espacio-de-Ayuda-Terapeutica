@@ -11,7 +11,7 @@
         font-size: $size;
         color: $color;
         font-weight: $weight;
-        margin-top: $textXs;
+        margin-top: map-get($map: $tamaños , $key: 'textXs');
         text-align: start;
     }
 
