@@ -8,30 +8,41 @@
     <title>Ayuda Terapéutica</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
 
-    <nav>
-        <a href="../index.html">
-            <img src="../img/logo-psicologia.png" alt="Logo de Psicología" width="100px" height="100px" />
-        </a>
-
-        <ul>
-            <li>
-                <a href="../pages/quienes-somos.html">¿Quiénes Somos?</a>
-            </li>
-            <li>
-                <a href="../pages/tipos-de-terapia.html">Tipos de Terapia</a>
-            </li>
-            <li>
-                <a href="../pages/servicios.html">Servicios</a>
-            </li>
-            <li>
-                <a href="../pages/contactanos.html">Contáctanos</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-violet" id="botonera">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo-psicologia.png" alt="Logo de Psicología" class="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-4">
+                        <a class="nav-link text-white" href="../pages/quienes-somos.html">¿Quiénes
+                            Somos?</a>
+                    </li>
+                    <li class="nav-item  px-4">
+                        <a class="nav-link text-white" href="../pages/tipos-de-terapia.html">Tipos de Terapia</a>
+                    </li>
+                    <li class="nav-item  px-4">
+                        <a class="nav-link text-white" href="../pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item  px-4">
+                        <a class="nav-link text-white" href="../pages/contactanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <header>
         <h1>Espacio de Ayuda Terapéutica</h1>
@@ -40,47 +51,40 @@
         <section>
             <div class="servicios">
                 <h2 class="animate__animated animate__slideInDown">Servicios</h2>
-                <h3>Como Servicios podemos ofrecer:</h3>
-            </div>
-            <ul class="listadoDeServicios">
-                <li>Terapia Individual</li>
-                <li>Terapia de grupo</li>
-                <li>Terapia de Niños y Adolescentes</li>
-                <li>Terapia de Familia</li>
-                <li>Terapia de Pareja</li>
-            </ul>
+                <ul class="list-group w-fit-content m-auto">
+                    <li class="list-group-item fs-1">Terapia Individual</li>
+                    <li class="list-group-item fs-1">Terapia de grupo</li>
+                    <li class="list-group-item fs-1">Terapia de Niños y Adolescentes</li>
+                    <li class="list-group-item fs-1">Terapia de Familia</li>
+                    <li class="list-group-item fs-1 mb-4">Terapia de Pareja</li>
+                </ul>
         </section>
+        </div>
         <section>
             <table class="tablaDos">
                 <tr>
-                    <th>Servicio</th>
-                    <th>Precio</th>
-                    <th>Profesional</th>
+                    <th class="text-white">Servicio</th>
+                    <th class="text-white">Precio</th>
                 </tr>
                 <tr>
                     <td>Terapia Individual</td>
                     <td>1500$</td>
-                    <td>Lujan Ortiz</td>
                 </tr>
                 <tr>
                     <td>Terapia de grupo</td>
                     <td>2000$</td>
-                    <td>María Lunares</td>
                 </tr>
                 <tr>
                     <td>Terapia de Niños y Adolescentes</td>
                     <td>1250$</td>
-                    <td>Maria José Eguía</td>
                 </tr>
                 <tr>
                     <td>Terapia de Familia</td>
                     <td>3000$</td>
-                    <td>Osvaldo Crego</td>
                 </tr>
                 <tr>
                     <td>Terapia de Pareja</td>
                     <td>3500$</td>
-                    <td>Zoe Llamosas</td>
                 </tr>
             </table>
         </section>
@@ -97,6 +101,9 @@
             <img src="../img/logo-instagram.png" alt="Logo de Instagram" />
         </a>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
