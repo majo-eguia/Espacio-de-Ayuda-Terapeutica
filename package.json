@@ -1,0 +1,25 @@
+{
+  "name": "espacio-de-ayuda-terapeutica",
+  "version": "1.0.0",
+  "description": "Este es un sitio web destinado a brindar información sobre los distintos tipos de terapias que utilizamos para otorgar terapia y que sea el paciente él que elija la corriente con la cuál quiere ser atendido.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build-css": "node-sass --include-path scss --output-style expanded scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majo-eguia/Espacio-de-Ayuda-Terapeutica.git"
+  },
+  "author": "María José Eguía Fluguerto Martí",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majo-eguia/Espacio-de-Ayuda-Terapeutica/issues"
+  },
+  "homepage": "https://github.com/majo-eguia/Espacio-de-Ayuda-Terapeutica#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

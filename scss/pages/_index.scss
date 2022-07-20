@@ -1,0 +1,27 @@
+.tituloSegundo {
+  padding: 4rem 2rem;
+  border: double 0.2rem $black;
+  font-size: $textSm;
+  background-image: $backgroundImageIndexYServiciosColor;
+  font-weight: $extraBold;
+}
+
+.parrafo-index {
+  color: $white;
+  line-height: $textMd;
+  font-size: $textSm;
+  margin: $textXl;
+}
+
+.tituloMasChico {
+  border: solid 0.2rem $borderColor;
+  font-size: 2.3rem;
+  margin: $textMd;
+  padding: $textXs;
+  background-image: $backgroundImageIndexColorH3;
+  font-weight: $bold;
+}
+
+.video {
+  border: solid 0.4rem $borderColor;
+}

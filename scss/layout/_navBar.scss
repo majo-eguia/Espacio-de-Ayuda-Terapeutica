@@ -1,0 +1,28 @@
+#botonera {
+   background-color: $backgroundColorNavYFooter;
+
+   img {
+      width: 100px;
+      height: 100px;
+
+   }
+}
+
+.navbar-toggler {
+   font-size: $textXs;
+   background-color: $white ;
+}
+
+.nav-item {
+   font-size: $textXs;
+   font-family: $mainFont;
+   text-align: center;
+
+   .nav-link {
+      &:hover {
+         font-size: $textSm;
+         box-shadow: 0 0.4rem 1rem #0F0E0E;
+         transition: all 0.2s ease;
+      }
+   }
+}
