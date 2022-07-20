@@ -8,13 +8,12 @@
     <title>Ayuda Terapéutica</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-violet" id="botonera">
         <div class="container-fluid">
             <a class="navbar-brand" href="../index.html">
@@ -28,16 +27,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item px-4">
-                        <a class="nav-link text-white" href="../pages/quienes-somos.html">¿Quiénes
-                            Somos?</a>
+                        <a class="nav-link text-white" href="../pages/quienes-somos.html">¿Quiénes Somos?</a>
                     </li>
-                    <li class="nav-item  px-4">
+                    <li class="nav-item px-4">
                         <a class="nav-link text-white" href="../pages/tipos-de-terapia.html">Tipos de Terapia</a>
                     </li>
-                    <li class="nav-item  px-4">
+                    <li class="nav-item px-4">
                         <a class="nav-link text-white" href="../pages/servicios.html">Servicios</a>
                     </li>
-                    <li class="nav-item  px-4">
+                    <li class="nav-item px-4">
                         <a class="nav-link text-white" href="../pages/contactanos.html">Contáctanos</a>
                     </li>
                 </ul>
@@ -49,157 +47,177 @@
     </header>
     <main class="main">
         <h2 class="tituloSegundoTiposDeTerapia text-white">Tipos de Terapia</h2>
-        <div class="container-fluid">
-            <div class="row g-3">
-                <section class="col-md-6 col-lg-4 seccionDeTerapia">
-                    <h3 class="p-3 text-center">Psicoanálisis</h3>
-                    <div class="card">
-                        <img src="../img/psicoanalisis.jpg" alt="Sigmund Freud: Psicoanálisis"
-                            class="card-img-top rounded mx-auto d-block img-fluid">
-                        <div class="card-body">
-                            <p class="card-text"> Es un método de investigación del inconsciente del sujeto por
-                                medio de
-                                la asociación libre,interpreta los sueños y los actos fallidos y es un
-                                tratamiento terapéutico y un conjunto de teorías psicológicas y
-                                psicopatológicas derivadas de los resultados de los 2 métodos antes
-                                identificados. Hay tres tipos de Tratamientos Psicoanalícos:
-                                Asociación libre En la asociación libre, el paciente debe manifestar
-                                todas sus ideas, pensamientos, imágenes y todo lo que piensa al
-                                psicoanalista.El paciente en esta fase muestra una represión que le
-                                dificulta aceptar sus propias vivencias. El psicoanalista debe
-                                interpretar las emociones y el funcionamiento psíquico del paciente.
-                                El segundo tratamiento es: La interpretación de los sueños, Los sueños
-                                son realizaciones simbólicas de deseo. Los anhelos y deseos son
-                                prohibidos en el estado consciente y tienen una oportunidad de
-                                exteriorizarse tras la desfiguración onírica, esto es, el proceso
-                                llamado por Sigmund Freud para descubrir las ideas del soñador a
-                                través de los siguientes mecanismos; condensación, desplazamiento,
-                                dramatización y simbolización. Y por último los Actos Fallidos,los
-                                actos fallidos es la muestra de procesos inconscientes o intenciones
-                                reprimidas.</p>
-                        </div>
+        <div class="accordion" id="acordionDeTiposDeTerapia">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Psicoanálisis
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                    data-bs-parent="#acordionDeTiposDeTerapia">
+                    <div class="accordion-body fs-tipo-de-terapia px-4">
+                        Es un método de investigación del inconsciente del sujeto por
+                        medio de la asociación libre,interpreta los sueños y los actos
+                        fallidos y es un tratamiento terapéutico y un conjunto de teorías
+                        psicológicas y psicopatológicas derivadas de los resultados de los
+                        2 métodos antes identificados. Hay tres tipos de Tratamientos
+                        Psicoanalícos: Asociación libre En la asociación libre, el
+                        paciente debe manifestar todas sus ideas, pensamientos, imágenes y
+                        todo lo que piensa al psicoanalista.El paciente en esta fase
+                        muestra una represión que le dificulta aceptar sus propias
+                        vivencias. El psicoanalista debe interpretar las emociones y el
+                        funcionamiento psíquico del paciente. El segundo tratamiento es:
+                        La interpretación de los sueños, Los sueños son realizaciones
+                        simbólicas de deseo. Los anhelos y deseos son prohibidos en el
+                        estado consciente y tienen una oportunidad de exteriorizarse tras
+                        la desfiguración onírica, esto es, el proceso llamado por Sigmund
+                        Freud para descubrir las ideas del soñador a través de los
+                        siguientes mecanismos; condensación, desplazamiento, dramatización
+                        y simbolización. Y por último los Actos Fallidos,los actos
+                        fallidos es la muestra de procesos inconscientes o intenciones
+                        reprimidas.
                     </div>
-                </section>
-                <section class="col-md-6 col-lg-4 seccionDeTerapia">
-                    <h3 class="p-3 text-center">Cognitivo-Conductual</h3>
-                    <div class="card">
-                        <img src=" ../img/tcc.png" alt="Terapia Cognitiva-Conductual"
-                            class="card-img-top rounded mx-auto d-block img-fluid">
-                        <div class="card-body">
-                            <p class="card-text"> Su autor es Aaron Beck, es un tipo de psicoterapia con la que se
-                                ayuda
-                                a los pacientes a cambiar su conducta mediante el cambio de la forma
-                                en que piensan y sienten sobre ciertas cosas. Se usa para tratar
-                                trastornos mentales, emocionales, de personalidad y de conducta.
-                                También se llama TCC y terapia cognitiva. Es un tratamiento
-                                psicológico a corto plazo que ayuda a modificar los pensamientos,
-                                sentimientos y comportamientos negativos. Por lo general se trata de
-                                terapias breves, focalizadas en los problemas puntuales que el
-                                paciente trae a la consulta. Si bien se se toma en cuenta el pasado,
-                                como parte de su historia, el foco del tratamiento se ubica en el
-                                presente. El terapeuta, que debe estar altamente entrenado en técnicas
-                                para el estrés y la ansiedad, cumple un rol muy activo, a diferencia
-                                de lo que ocurre en las terapias tradicionales. Se entrenará al
-                                paciente en: a) identificación, confrontación y modificación de
-                                pensamientos; b) identificación de emociones y su influencia sobre las
-                                interpretaciones que cada uno hace de eventos, conflictos o
-                                sensaciones corporales; y c) la organización del tiempo</p>
-                        </div>
+                    <img class="img-fluid mb-4" src="../img/psicoanalisis.jpg" alt="Sigmund Freud: Psicoanálisis" />
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Cognitivo-Conductual
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                    data-bs-parent="#acordionDeTiposDeTerapia">
+                    <div class="accordion-body fs-tipo-de-terapia px-4">
+                        Su autor es Aaron Beck, es un tipo de psicoterapia con la que se
+                        ayuda a los pacientes a cambiar su conducta mediante el cambio de
+                        la forma en que piensan y sienten sobre ciertas cosas. Se usa para
+                        tratar trastornos mentales, emocionales, de personalidad y de
+                        conducta. También se llama TCC y terapia cognitiva. Es un
+                        tratamiento psicológico a corto plazo que ayuda a modificar los
+                        pensamientos, sentimientos y comportamientos negativos. Por lo
+                        general se trata de terapias breves, focalizadas en los problemas
+                        puntuales que el paciente trae a la consulta. Si bien se se toma
+                        en cuenta el pasado, como parte de su historia, el foco del
+                        tratamiento se ubica en el presente. El terapeuta, que debe estar
+                        altamente entrenado en técnicas para el estrés y la ansiedad,
+                        cumple un rol muy activo, a diferencia de lo que ocurre en las
+                        terapias tradicionales. Se entrenará al paciente en: a)
+                        identificación, confrontación y modificación de pensamientos; b)
+                        identificación de emociones y su influencia sobre las
+                        interpretaciones que cada uno hace de eventos, conflictos o
+                        sensaciones corporales; y c) la organización del tiempo
                     </div>
-                </section>
-                <section class="col-md-6 col-lg-4 seccionDeTerapia">
-                    <h3 class="p-3 text-center">Logoterapia</h3>
-                    <div class="card">
-                        <img src="../img/logoterapia.jpg" alt="¿Qué es la Logoterapia?"
-                            class="card-img-top rounded mx-auto d-block img-fluid" />
-                        <div class="card-body">
-                            <p class="card-text">
-                                Se conoce como logoterapia a una variante de la psicoterapia que gira
-                                en torno a la presentación del concepto de voluntad de sentido como
-                                primera motivación del hombre. Este tipo de psicoterapia que promovió
-                                el neurólogo y psiquiatra Viktor Frankl haya su base en el análisis
-                                existencial. Frankl, quien durante algún tiempo estuvo cautivo en un
-                                campo de concentración, explicó con el paso de los años que consiguió
-                                sobrevivir gracias a que pudo dar un logos (sentido o significado) a
-                                su existencia. Entre los principales postulados de la logoterapia,
-                                además de la ya mencionada voluntad de sentido (la cual permite
-                                demostrar que el animatismo del hombre lo distingue frente a cualquier
-                                especie del reino animal o vegetal), se encuentran la libertad de
-                                voluntad (que asegura que todo sujeto está capacitado para tomar
-                                decisiones personales y goza de la libertad necesaria para elegir su
-                                propio destino) y el sentido de vida (en este contexto, la logoterapia
-                                constituye una percepción del mundo de raíz positiva). Los métodos de
-                                Frankl aplicados a la logoterapia giran en torno al diálogo para
-                                descubrir qué es lo que da sentido a la vida de una persona, pero
-                                también aborda las dolencias de carácter psíquico desde un punto de
-                                vista médico (por citar un caso concreto a modo de ejemplo, al recetar
-                                un tratamiento hormonal a quien sufre depresión).
-                            </p>
-                        </div>
+                    <img class="img-fluid mb-4" src="../img/tcc.png" alt="Terapia Cognitiva-Conductual" />
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Logoterapia
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                    data-bs-parent="#acordionDeTiposDeTerapia">
+                    <div class="accordion-body fs-tipo-de-terapia px-4">
+                        Se conoce como logoterapia a una variante de la psicoterapia que
+                        gira en torno a la presentación del concepto de voluntad de
+                        sentido como primera motivación del hombre. Este tipo de
+                        psicoterapia que promovió el neurólogo y psiquiatra Viktor Frankl
+                        haya su base en el análisis existencial. Frankl, quien durante
+                        algún tiempo estuvo cautivo en un campo de concentración, explicó
+                        con el paso de los años que consiguió sobrevivir gracias a que
+                        pudo dar un logos (sentido o significado) a su existencia. Entre
+                        los principales postulados de la logoterapia, además de la ya
+                        mencionada voluntad de sentido (la cual permite demostrar que el
+                        animatismo del hombre lo distingue frente a cualquier especie del
+                        reino animal o vegetal), se encuentran la libertad de voluntad
+                        (que asegura que todo sujeto está capacitado para tomar decisiones
+                        personales y goza de la libertad necesaria para elegir su propio
+                        destino) y el sentido de vida (en este contexto, la logoterapia
+                        constituye una percepción del mundo de raíz positiva). Los métodos
+                        de Frankl aplicados a la logoterapia giran en torno al diálogo
+                        para descubrir qué es lo que da sentido a la vida de una persona,
+                        pero también aborda las dolencias de carácter psíquico desde un
+                        punto de vista médico (por citar un caso concreto a modo de
+                        ejemplo, al recetar un tratamiento hormonal a quien sufre
+                        depresión).
                     </div>
-                </section>
-                <section class="col-md-6 col-lg-4 seccionDeTerapia">
-                    <h3 class="p-3 text-center">Gestalt</h3>
-                    <div class="card">
-                        <img src="../img/gestalt.png" alt="Terapia de la Gestalt"
-                            class="card-img-top rounded mx-auto d-block w-50 img-fluid">
-                        <div class="card-body">
-                            <p class="card-text">
-                                La Terapia Gestalt es una terapia psicológica humanista que busca
-                                desarrollar el potencial humano y el crecimiento personal. Se trata de
-                                una forma de psicoterapia utilizada para tratar diversos trastornos
-                                psicológicos y emocionales, la cual nos acerca a conceptos como la
-                                toma de conciencia, la autorrealización, el desarrollo personal y la
-                                autoestima.Esta terapia procura integrar las conductas, sentimientos y
-                                pensamientos del paciente, de manera que sus intenciones y acciones
-                                estén enfocadas en conseguir una salud mental óptima. El psicólogo
-                                ayudará al paciente a que sea más consciente de sí mismo, a pensar más
-                                en el presente y a asumir más responsabilidades en el cuidado de su
-                                vida. Las técnicas de la terapia gestáltica incluyen: La
-                                confrontación, El análisis de los sueños, El juego de roles. La
-                                Terapia Gestalt está enfocada principalmente en lo que se está
-                                pensando y sintiendo ahora, no en lo que pudo ser o cómo debería haber
-                                sido. Consiste en hacer que el paciente viva y sienta la realidad,
-                                dando un mayor protagonismo a "cómo", "porqué" y "para qué"
-                            </p>
-                        </div>
+                    <img class="img-fluid mb-4" src="../img/logoterapia.jpg" alt="¿Qué es la Logoterapia?" />
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Gestalt
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                    data-bs-parent="#acordionDeTiposDeTerapia">
+                    <div class="accordion-body fs-tipo-de-terapia px-4">
+                        La Terapia Gestalt es una terapia psicológica humanista que busca
+                        desarrollar el potencial humano y el crecimiento personal. Se
+                        trata de una forma de psicoterapia utilizada para tratar diversos
+                        trastornos psicológicos y emocionales, la cual nos acerca a
+                        conceptos como la toma de conciencia, la autorrealización, el
+                        desarrollo personal y la autoestima.Esta terapia procura integrar
+                        las conductas, sentimientos y pensamientos del paciente, de manera
+                        que sus intenciones y acciones estén enfocadas en conseguir una
+                        salud mental óptima. El psicólogo ayudará al paciente a que sea
+                        más consciente de sí mismo, a pensar más en el presente y a asumir
+                        más responsabilidades en el cuidado de su vida. Las técnicas de la
+                        terapia gestáltica incluyen: La confrontación, El análisis de los
+                        sueños, El juego de roles. La Terapia Gestalt está enfocada
+                        principalmente en lo que se está pensando y sintiendo ahora, no en
+                        lo que pudo ser o cómo debería haber sido. Consiste en hacer que
+                        el paciente viva y sienta la realidad, dando un mayor protagonismo
+                        a "cómo", "porqué" y "para qué"
                     </div>
-                </section>
-                <section class="col-md-6 col-lg-4 seccionDeTerapia">
-                    <h3 class="p-3 text-center">Mindfulness</h3>
-                    <div class="card">
-                        <img src="../img/mindfulness.jpg" alt="Meditación de Mindfulness"
-                            class="card-img-top rounded mx-auto d-block img-fluid">
-                        <div class="card-body">
-                            <p class="card-text">
-                                Mindfulness es la capacidad humana básica de poder estar en el
-                                presente y de "recordarnos" estar en el presente, es decir,
-                                constantemente estar volviendo al aquí y ahora. No podríamos vivir sin
-                                la capacidad de estar en el presente: es la que nos permite recordar a
-                                dónde estamos yendo mientras caminamos, aún cuando durante el trayecto
-                                nos hayamos perdido en miles de pensamientos. Sin Mindfulness sería
-                                imposible poder observar y reconocer la propia experiencia y vivir en
-                                este mundo. Sin embargo, y aunque creemos tener control conciente de
-                                nuestra atención, lo que normalmente sucede es que estamos
-                                constantemente atendiendo a pensamientos acerca del pasado o del
-                                futuro o bien, reconociendo solo una pequeña porción de lo que está
-                                sucediendo en el presente: si lo que estoy experimentando me gusta,
-                                quiero que continue o si lo que estoy experimentando me desagrada,
-                                quiero que desaparezca. Mindfulness permite reconocer lo que está
-                                sucediendo mientras está sucediendo, aceptando activamente el fluir de
-                                la experiencia tal cual se está dando. Así es que, aunque
-                                experimentemos algo desagradable (por cierto algo inevitable en la
-                                medida en que estemos vivos), podremos ahorrarnos el sufrimiento
-                                añadido de tener que lograr que aquello desagradable desaparezca.
-                                Quedarse solo con lo que experimentamos sin agregar nada más es lo que
-                                la práctica de mindfulness permite.
-                            </p>
-                        </div>
+                    <img class="img-fluid mb-4" src="../img/gestalt.png" alt="Terapia de la Gestalt" />
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Mindfulness
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                    data-bs-parent="#acordionDeTiposDeTerapia">
+                    <div class="accordion-body fs-tipo-de-terapia px-4">
+                        Mindfulness es la capacidad humana básica de poder estar en el
+                        presente y de "recordarnos" estar en el presente, es decir,
+                        constantemente estar volviendo al aquí y ahora. No podríamos vivir
+                        sin la capacidad de estar en el presente: es la que nos permite
+                        recordar a dónde estamos yendo mientras caminamos, aún cuando
+                        durante el trayecto nos hayamos perdido en miles de pensamientos.
+                        Sin Mindfulness sería imposible poder observar y reconocer la
+                        propia experiencia y vivir en este mundo. Sin embargo, y aunque
+                        creemos tener control conciente de nuestra atención, lo que
+                        normalmente sucede es que estamos constantemente atendiendo a
+                        pensamientos acerca del pasado o del futuro o bien, reconociendo
+                        solo una pequeña porción de lo que está sucediendo en el presente:
+                        si lo que estoy experimentando me gusta, quiero que continue o si
+                        lo que estoy experimentando me desagrada, quiero que desaparezca.
+                        Mindfulness permite reconocer lo que está sucediendo mientras está
+                        sucediendo, aceptando activamente el fluir de la experiencia tal
+                        cual se está dando. Así es que, aunque experimentemos algo
+                        desagradable (por cierto algo inevitable en la medida en que
+                        estemos vivos), podremos ahorrarnos el sufrimiento añadido de
+                        tener que lograr que aquello desagradable desaparezca. Quedarse
+                        solo con lo que experimentamos sin agregar nada más es lo que la
+                        práctica de mindfulness permite.
                     </div>
-                </section>
+                    <img class="img-fluid mb-4" src="../img/mindfulness.jpg" alt="Meditación de Mindfulness" />
+                </div>
             </div>
         </div>
-        </section>
     </main>
     <footer class="redes">
         <h3 class="texto">Seguinos en nuestras redes sociales</h3>
@@ -213,8 +231,8 @@
             <img src="../img/logo-instagram.png" alt="Logo de Instagram" />
         </a>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 </body>
 

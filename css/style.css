@@ -37,8 +37,10 @@ body {
     background-color: rgb(208, 214, 219);
 }
 
-.nav-link.text-white {
-    font-size: 2.5rem;
+.nav-link:hover {
+    font-size: 2.7rem;
+    box-shadow: 0 0.4rem 1rem black;
+    transition: all 0.2s ease;
 }
 
 header h1 {
@@ -132,8 +134,12 @@ header h1 {
     color: #fff;
 }
 
-.card {
-    font-size: 2rem;
+.accordion-button {
+    font-size: 3.5rem;
+}
+
+.fs-tipo-de-terapia {
+    font-size: 2.7rem;
 }
 
 /* termina TIPO DE TERAPIAS */
