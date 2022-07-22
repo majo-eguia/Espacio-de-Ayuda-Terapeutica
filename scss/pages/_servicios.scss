@@ -3,15 +3,20 @@
     color: $white;
 
     h2 {
-        font-size: $textXl;
+        font-size: map-get($map: $tamaños , $key: 'textXl');
         font-weight: $light;
     }
 
-    h3 {
-        font-size: $textSm;
-        margin-top: $textXs;
-        font-weight: $light;
+    @mixin servicios ($size, $color, $weight) {
+        font-size: $size;
+        color: $color;
+        font-weight: $weight;
+        margin-top: map-get($map: $tamaños , $key: 'textXs');
         text-align: start;
+    }
+
+    h3 {
+        @include servicios (2.5rem, #F5F0F0, 300)
     }
 }
 
@@ -22,9 +27,9 @@
 .tablaDos {
     width: 100%;
     border: 3px solid $white;
-    font-size: $textXs;
+    font-size: map-get($map: $tamaños , $key: 'textXs');
     margin: auto;
-    padding: $textXxs;
+    padding: map-get($map: $tamaños , $key: 'textXxs');
 
     th,
     td {
@@ -58,5 +63,5 @@ caption {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: $textXxs;
+    padding: map-get($map: $tamaños , $key: 'textXxs');
 }

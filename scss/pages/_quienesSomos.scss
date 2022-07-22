@@ -1,5 +1,5 @@
 .tituloQuienesSomos {
-    font-size: $textLg;
+    font-size: map-get($map: $tamaños , $key: 'textLg');
     color: $white;
     font-weight: $light;
 }
@@ -8,9 +8,9 @@
     color: $linkColor;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
     .quienes-somos-video {
-        width: 50vw;
+        max-width: 60vw;
         margin: auto;
     }
 }

@@ -1,6 +1,6 @@
 .main {
     background-color: $mainColor;
     text-align: center;
-    padding: $textXs;
-    margin: $textXs;
+    padding: map-get($map: $tamaños , $key: 'textXs');
+    margin: map-get($map: $tamaños , $key: 'textXs');
 }
