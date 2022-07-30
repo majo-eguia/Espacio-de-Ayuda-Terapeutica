@@ -1,23 +1,23 @@
 .tituloSegundo {
   padding: 4rem 2rem;
   border: double 0.2rem $black;
-  font-size: $textSm;
+  font-size: map-get($map: $tamaños , $key: 'textSm');
   background-image: $backgroundImageIndexYServiciosColor;
   font-weight: $extraBold;
 }
 
 .parrafo-index {
   color: $white;
-  line-height: $textMd;
-  font-size: $textSm;
-  margin: $textXl;
+  line-height: map-get($map: $tamaños , $key: 'textMd');
+  font-size: map-get($map: $tamaños , $key: 'textSm');
+  margin: map-get($map: $tamaños , $key: 'textXl');
 }
 
 .tituloMasChico {
   border: solid 0.2rem $borderColor;
   font-size: 2.3rem;
-  margin: $textMd;
-  padding: $textXs;
+  margin: map-get($map: $tamaños , $key: 'textMd');
+  padding: map-get($map: $tamaños , $key: 'textXs');
   background-image: $backgroundImageIndexColorH3;
   font-weight: $bold;
 }

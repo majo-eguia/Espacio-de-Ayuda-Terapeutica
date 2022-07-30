@@ -2,10 +2,10 @@
     grid-area: footer;
     background-color: $backgroundColorNavYFooter;
     text-align: center;
-    padding: $textXxs;
+    padding: map-get($map: $tamaños , $key: 'textXxs');
 
     .texto {
-        font-size: $textLg;
+        font-size: map-get($map: $tamaños , $key: 'textLg');
         font-family: $footerFont;
         color: $white;
         font-weight: $medium;

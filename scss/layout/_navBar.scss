@@ -9,18 +9,18 @@
 }
 
 .navbar-toggler {
-   font-size: $textXs;
+   font-size: map-get($map: $tamaños , $key: 'textXs');
    background-color: $white ;
 }
 
 .nav-item {
-   font-size: $textXs;
+   font-size: map-get($map: $tamaños , $key: 'textXs');
    font-family: $mainFont;
    text-align: center;
 
    .nav-link {
       &:hover {
-         font-size: $textSm;
+         font-size: map-get($map: $tamaños , $key: 'textSm');
          box-shadow: 0 0.4rem 1rem #0F0E0E;
          transition: all 0.2s ease;
       }

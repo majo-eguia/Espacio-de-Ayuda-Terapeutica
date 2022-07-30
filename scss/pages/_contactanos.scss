@@ -1,13 +1,13 @@
 .text-white.pt-5 {
-  font-size: $textLg;
+  font-size: map-get($map: $tamaños , $key: 'textLg');
   font-weight: $light;
 }
 
 .contactForm {
-  font-size: $textSm;
+  font-size: map-get($map: $tamaños , $key: 'textSm');
 
   h2 {
-    font-size: $textSm;
+    font-size: map-get($map: $tamaños , $key: 'textSm');
   }
 
   .text-area-form-label {
@@ -31,7 +31,7 @@
 }
 
 .btn-contact-form {
-  font-size: $textXs;
+  font-size: map-get($map: $tamaños , $key: 'textXs');
 }
 
 .btn-secondary-contact-form {
