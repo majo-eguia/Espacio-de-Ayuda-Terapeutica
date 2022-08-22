@@ -1,5 +1,6 @@
 .tituloSegundo {
   padding: 4rem 2rem;
+  margin: map-get($map: $tamaños , $key: 'textXs');
   border: double 0.2rem $black;
   font-size: map-get($map: $tamaños , $key: 'textSm');
   background-image: $backgroundImageIndexYServiciosColor;
